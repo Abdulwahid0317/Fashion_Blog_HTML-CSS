@@ -1,0 +1,859 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: oswald;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 16px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.navul a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+
+}
+
+.nav .navul a:hover{
+    background-color: grey;
+    padding: 8px 16px;
+
+}
+.nav .search a{
+    padding: 8px 16px;
+}
+.nav .search a:hover{
+    background-color: grey;
+    padding: 8px 16px;
+
+}
+
+/* header page */
+
+.header{
+    padding: 48px 16px;
+    text-align: center;
+}
+
+.header .headerdiv1{
+    margin: 10px 0px;
+   font-size: 35px;
+}
+.header .headerdiv1 h1{
+    font-weight: 500;
+}
+.header .headerdiv2{
+    margin: 10px 0px;
+}
+.header .headerdiv2 span{
+    background-color: black;
+    color: white;
+    padding: 0px 8px;
+}
+
+/* main page */
+
+.main img{
+    width: 1263px;
+    height: 836px;
+}
+
+.main{
+    position: relative;
+}
+
+.main .maindiv{
+    position: absolute;
+    top: 50%;
+    padding: 12px 24px;
+}
+
+.divp{
+    color: white;
+    font-size: 36px;
+    margin: 10px 0px;
+}
+
+.divh1{
+    color: white;
+    font-size: 44px;
+}
+.divh1 h1{
+    font-weight: 500;
+}
+
+.divbutton{
+    margin: 10px 0px;
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.532);
+    border: none;
+}
+
+.divbutton:hover{
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+
+
+/* left hand side start on this */
+.div-for-flex{
+    display: flex;
+}
+
+.total-left-div{  
+    width: 850px;
+    height: 3420px;
+}
+
+
+.mainbodydiv{
+    height: 1000px;
+    width: 800px;
+    margin: 16px;
+    padding: 12px 24px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.paradiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paradiv .p11{
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.paradiv .p22{
+    margin: 10px 0;
+}
+.paradiv .p22 span{
+    font-weight: 300;
+}
+
+.mainbodydiv img{
+    width: 752px;
+    height: 530px;
+}
+
+.mainbodydiv .p1{
+    text-align: justify;
+    margin: 10px 0;
+    font-family: open sans;
+  font-size: smaller;
+}
+
+.mainbodydiv .p2{
+    text-align: justify;
+    margin: 10px 0;
+    font-family: open sans;
+  font-size: smaller;
+}
+
+
+
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 ;
+    font-family: open sans;
+    padding: 8px 16px;
+    align-items: center;
+}
+
+.mainbodydiv .button .button1{
+    font-size: 15px;
+    padding: 2px 5px;
+    border-width: 0.5px;
+}
+
+.mainbodydiv .button .button1:hover{
+    background-color: rgb(206, 200, 200);}
+
+
+
+.mainbodydiv .button .button2{
+    font-size: 15px;
+    padding: 2px 5px;
+    background-color: black;
+    color: white;
+    border-width: 0.5px;
+}
+
+
+.mainbodydiv .button .button2:hover{ background-color: rgb(206, 200, 200);
+    color: black;}
+
+
+
+.smallpage{
+    margin-bottom: 16px;
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+
+.smallpage img{
+    width: 90px;
+    height: 80px;
+    padding-right: 15px;
+}
+
+
+.smallpage .p111 span{
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+
+.smallpage .p222{
+    font-family: open sans;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+
+/* left side second part start */
+
+
+
+.mainhead{
+    height: 1120px;
+    width: 800px;
+    margin: 16px;
+    padding: 12px 24px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head .headp1{
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.head .headp2{
+    margin: 10px 0;
+}
+.head .p2 span{
+    font-weight: 300;
+}
+
+.headimg img{
+    width: 752px;
+    height: 530px;
+}
+
+
+.mainhead .headimg .headimgp1{
+    text-align: justify;
+    margin: 10px 0;
+    font-family: open sans;
+  font-size: smaller;
+}
+
+.mainhead .headimg .headimgp2{
+    text-align: justify;
+    margin: 10px 0;
+    font-family: open sans;
+  font-size: smaller;
+}
+
+
+.mainhead .button-page2{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 ;
+    font-family: open sans;
+    padding: 8px 16px;
+    align-items: center;
+}
+
+.mainhead .button-page2 .button1{
+    font-size: 15px;
+    padding: 2px 5px;
+    border-width: 0.5px;
+}
+
+.mainhead .button-page2 .button1:hover{
+    background-color: rgb(206, 200, 200);
+}
+
+
+
+.mainhead .button-page2 .button2{
+    font-size: 15px;
+    padding: 2px 5px;
+    background-color: black;
+    color: white;
+    border-width: 0.5px;
+}
+.mainhead .button-page2 .button2:hover{ 
+    background-color: rgb(206, 200, 200);
+    color: black;}
+
+
+.small-page2-pic1{
+    margin-bottom: 16px;
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+
+
+.small-page2-pic1 img{
+    width: 90px;
+    height: 80px;
+    padding-right: 15px;
+}
+
+
+.small-page2-pic1 .p1 span{
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.small-page2-pic1 .p2{
+    font-family: open sans;
+    margin: 10px 0;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+
+.small-page2-pic2{
+    margin-bottom: 16px;
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+   
+.small-page2-pic2 img{
+    width: 90px;
+    height: 80px;
+    padding-right: 15px;
+}
+
+
+
+.small-page2-pic2 .p11 span{
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+
+.small-page2-pic2 .p22{
+    font-family: open sans;
+    margin: 10px 0;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+
+
+/* left side third and last part start */
+
+
+
+
+
+
+.mainhead1{
+    height: 1250px;
+    width: 800px;
+    margin: 16px;
+    padding: 12px 24px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.head1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head1 .headp1{
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.head1 .headp2{
+    margin: 10px 0;
+}
+.head1 .p2 span{
+    font-weight: 300;
+}
+
+.headimg1 img{
+    width: 752px;
+    height: 530px;
+}
+
+
+.mainhead1 .headimg1 .headimgp1{
+    text-align: justify;
+    margin: 10px 0;
+    font-family: open sans;
+  font-size: smaller;
+}
+
+.mainhead1 .headimg1 .headimgp2{
+    text-align: justify;
+    margin: 10px 0;
+    font-family: open sans;
+  font-size: smaller;
+}
+
+
+
+
+
+.mainhead1 .button-page3{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 ;
+    font-family: open sans;
+    padding: 8px 16px;
+    align-items: center;
+}
+
+.mainhead1 .button-page3 .button1{
+    font-size: 15px;
+    padding: 2px 5px;
+    border-width: 0.5px;
+}
+
+.mainhead1 .button-page3 .button1:hover{
+    background-color: rgb(206, 200, 200);
+}
+
+
+
+.mainhead1 .button-page3 .button2{
+    font-size: 15px;
+    padding: 2px 5px;
+    background-color: black;
+    color: white;
+    border-width: 0.5px;
+}
+.mainhead1 .button-page3 .button2:hover{ 
+    background-color: rgb(206, 200, 200);
+    color: black;}
+
+
+
+
+
+    .small-page3-pic1{
+        margin-bottom: 16px;
+        padding-top: 40px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    
+    }
+    
+    
+    
+    .small-page3-pic1 img{
+        width: 90px;
+        height: 80px;
+        padding-right: 15px;
+    }
+    
+    
+    .small-page3-pic1 .p1 span{
+        font-weight: 100;
+        margin: 10px 0;
+    }
+    .small-page3-pic1 .p2{
+        font-family: open sans;
+        margin: 10px 0;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    
+
+
+
+
+
+
+    .small-page3-pic2{
+        margin-bottom: 16px;
+        padding-top: 40px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    
+    }
+    
+    
+    
+    .small-page3-pic2 img{
+        width: 90px;
+        height: 80px;
+        padding-right: 15px;
+    }
+    
+    
+    .small-page3-pic2 .p1 span{
+        font-weight: 100;
+        margin: 10px 0;
+    }
+    .small-page3-pic2 .p2{
+        font-family: open sans;
+        margin: 10px 0;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+
+
+
+
+
+
+    .small-page3-pic3{
+        margin-bottom: 16px;
+        padding-top: 40px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    
+    }
+    
+    
+    
+    .small-page3-pic3 img{
+        width: 90px;
+        height: 80px;
+        padding-right: 15px;
+    }
+    
+    
+    .small-page3-pic3 .p1 span{
+        font-weight: 100;
+        margin: 10px 0;
+    }
+    .small-page3-pic3 .p2{
+        font-family: open sans;
+        margin: 10px 0;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+
+
+/* left side dive close and comple their css */
+    
+
+
+/* right side start dive start */
+
+
+.total-right-div{
+    width: 400px;
+    height: 2300px;
+    margin: 16px 0;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.first-img{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+.first-img img{
+    width: 400px;
+    height: 230px;
+   padding-left: 0px;
+  filter: grayscale(70%);
+
+}
+
+.first-img{
+    background-color: black;
+    color: white;
+}
+
+.first-img .p1{
+    padding: 0 10px;
+}
+
+.first-img .p2{
+    padding:0 10px;
+    font-family: open sans;
+    font-size: smaller;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+
+.first-h4{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.first-h4 h4{
+    padding: 16px 16px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-family: oswald;
+    font-weight: 500;
+}
+
+.first-small-img{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    border-bottom: 10px;
+}
+
+
+.first-small-img img{
+    width: 50px;
+    height: 55px;
+    margin-right: 15px;
+}
+
+.first-small-img .p .p1{
+    font-family: open sans;
+}
+.first-small-img .p .p2{
+    font-family: open sans;
+    font-weight: 300;
+    font-size: small;
+}
+
+.add{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.add h4{
+    padding: 16px 16px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-family: oswald;
+    font-weight: 500;
+}
+
+.empty-box{
+ 
+    width: 380px;
+    height: 200px;
+    background-color: rgb(229, 223, 223);
+    margin: 15px;
+    position: relative;
+}
+
+.empty-box .p{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-family: open sans;
+    background-color: rgb(159, 159, 159);
+   font-weight: 100;
+   font-size: smaller;  
+}
+
+
+
+
+.add1{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.add1 h4{
+    padding: 16px 16px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-family: oswald;
+    font-weight: 500;
+   
+}
+
+
+.add1 .words div{
+    font-family: open sans;
+    font-size: 8px;
+    font-weight: 492;
+    margin-bottom: 16px;
+    padding:  0 8px;
+    background-color: #f1f1f1;
+}
+.add1 .words {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 380px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+
+
+.main-add2{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.add2 h4{
+    padding: 16px 16px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-family: oswald;
+    font-weight: 500;
+   
+   
+}
+
+.four-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    
+}
+
+.four-img img{
+    width: 164px;
+    height: 109px;
+    padding: 8px 8px ;
+
+}
+
+
+
+
+
+
+
+.add3 h4{
+    padding: 16px 16px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-family: oswald;
+    font-weight: 500;
+}
+
+
+
+.add3{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+}
+.add3 p{
+    font-family: Open sans;
+    padding: 20px;
+}
+
+
+
+.add3 .input{
+    padding-left: 20px;
+}
+
+.add3 input{
+     width: 350px;
+     height: 36px;
+     padding-left: 10px;
+}
+
+.add3 button{
+    width: 350px;
+    height: 36px;
+    color:white;
+    background-color: #f44336;
+    border: none;
+}
+
+.add3 .button{
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: #616161;
+    color: white;
+   
+}
+
+
+footer .p1{
+    height: 46px;
+    width: 130px;
+    background-color: black;
+    padding: 12px 14px;
+    font-family: open sans;
+  
+}
+footer .p1:hover{
+    background-color: rgb(206, 200, 200);
+    color: black;
+}
+
+footer .p2 a{
+    color: white;
+    font-family: open sans;
+}
+footer .p2 a:hover{
+   color: rgba(42, 248, 42, 0.514);
+}
