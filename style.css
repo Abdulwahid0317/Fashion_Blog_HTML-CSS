@@ -37,6 +37,7 @@
 }
 .nav .search a{
     padding: 8px 16px;
+    color: white;
 }
 .nav .search a:hover{
     background-color: grey;
